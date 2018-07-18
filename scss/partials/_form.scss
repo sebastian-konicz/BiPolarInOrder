@@ -1,0 +1,33 @@
+.form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  .form-label {
+    margin: 5px 0px;
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Mitr', sans-serif;
+  }
+  .form-control {
+    margin: 5px 0px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0 15px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Mitr', sans-serif;
+  }
+  .form-button {
+    margin: 20px 0px;
+    height: 50px;
+    background-color: map-get($colors, lighter-color);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0 15px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Mitr', sans-serif;
+  }
+}

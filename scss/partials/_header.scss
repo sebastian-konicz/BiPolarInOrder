@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .titleBi{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    h1 {
+      font-family: 'Mitr', sans-serif;
+      font-size: 70px;
+      font-weight: 700;
+      color: white;
+    }
+  }
+
+  .titleIn {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    h1 {
+      font-family: 'Mitr', sans-serif;
+      font-size: 70px;
+      font-weight: 700;
+      color: black;
+    }
+  }
+    @include tablet {
+      .titleBi{
+        height: 60px;
+        justify-content: center;
+        h1 {
+          font-size: 40px;
+        }
+      }
+      .titleIn{
+        height: 60px;
+        justify-content: center;
+        h1 {
+          font-size: 40px;
+        }
+      }
+    }
+}
